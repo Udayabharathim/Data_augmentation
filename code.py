@@ -1,4 +1,4 @@
-``import os
+import os
 from google.colab import drive
 from tensorflow.keras.preprocessing.image import ImageDataGenerator, img_to_array, load_img
 
@@ -43,4 +43,4 @@ print(f"Images saved to Google Drive: {saved_images}")
 if saved_images:
     print(f"Successfully saved {len(saved_images)} images to: {save_dir}")
 else:
-    print("No images were saved. Please check the path or file permissions.") ``
+    print("No images were saved. Please check the path or file permissions.")
